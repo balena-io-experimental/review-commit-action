@@ -9,7 +9,7 @@ runs:
       with:
         check-interval: 5
         timeout-seconds: 600
-        allow-authors: true
+        allow-authors: false
     - name: Run after approval
       shell: bash
       run: |
